@@ -1,9 +1,11 @@
 {
     "security.workspace.trust.enabled": false,
     "window.menuBarVisibility": "compact",
+    "window.restoreWindows": "folders",
     "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Ayu Light Bordered",
     "workbench.preferredDarkColorTheme": "Ayu Mirage Bordered",
+    "workbench.layoutControl.enabled": false,
     "workbench.activityBar.location": "top",
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
@@ -22,6 +24,6 @@
     "flake8.args": ["--max-line-length=120", "--ignore=E111,E114"],
     "git.openRepositoryInParentFolders": "always",
     "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.enableSmartCommit": true
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false
 }

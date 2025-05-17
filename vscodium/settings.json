@@ -1,0 +1,25 @@
+{
+    "security.workspace.trust.enabled": false,
+    "window.menuBarVisibility": "compact",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Ayu Light Bordered",
+    "workbench.preferredDarkColorTheme": "Ayu Mirage Bordered",
+    "workbench.activityBar.location": "top",
+    "workbench.startupEditor": "none",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.fontFamily": "Cascadia Mono, Consolas, monospace",
+    "editor.fontWeight": "400",
+    "editor.fontSize": 18,
+    "editor.tabSize": 2,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 120,
+    "editor.lightbulb.enabled": "off",
+    "editor.renderWhitespace": "trailing",
+    "files.insertFinalNewline": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 60000,
+    "files.hotExit": "off", // Files save on exit
+    "flake8.args": ["--max-line-length=120", "--ignore=E111,E114"],
+    "git.openRepositoryInParentFolders": "always",
+    "git.autofetch": true
+}

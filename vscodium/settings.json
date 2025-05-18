@@ -10,7 +10,6 @@
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
     "editor.fontFamily": "Cascadia Mono, Consolas, monospace",
-    "editor.fontWeight": "400",
     "editor.fontSize": 18,
     "editor.tabSize": 2,
     "editor.wordWrap": "bounded",

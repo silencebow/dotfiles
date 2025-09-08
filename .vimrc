@@ -22,3 +22,6 @@ set ignorecase
 " show current mode and last command at bottom of screen
 set showmode showcmd
 
+" prevent cursor from getting within x lines of the top or bottom
+set scrolloff=5
+

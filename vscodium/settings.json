@@ -9,6 +9,11 @@
     "workbench.activityBar.location": "top",
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 60000,
+    "files.hotExit": "off", // Files will save on exit instead
     "editor.fontFamily": "Cascadia Mono, Consolas, monospace",
     "editor.fontSize": 18,
     "editor.tabSize": 2,
@@ -19,15 +24,10 @@
     "editor.cursorBlinking": "solid",
     "editor.lineNumbers": "relative",
     "editor.renderFinalNewline": "on",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 60000,
-    "files.hotExit": "off", // Files will save on exit instead
-    "flake8.args": ["--max-line-length=120", "--ignore=E111,E114"],
     "git.openRepositoryInParentFolders": "always",
     "git.autofetch": true,
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
-    "vim.insertModeKeyBindings": [{"before": ["j", "j"], "after": ["<Esc>"]}]
+    "vim.insertModeKeyBindings": [{"before": ["j","j"], "after": ["<Esc>"]}],
+    "flake8.args": ["--max-line-length=120", "--ignore=E111,E114"]
 }

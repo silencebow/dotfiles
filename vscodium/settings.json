@@ -13,7 +13,7 @@
     "files.trimFinalNewlines": true,
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 60000,
-    "files.hotExit": "off", // Files will save on exit instead
+    "files.hotExit": "off",
     "editor.fontFamily": "Cascadia Mono, Consolas, monospace",
     "editor.fontSize": 18,
     "editor.tabSize": 2,

@@ -25,3 +25,6 @@ set showmode showcmd
 " prevent cursor from getting within x lines of the top or bottom
 set scrolloff=5
 
+" line cursor in insert mode, block cursor in normal mode
+let &t_SI = "\e[6 q"
+let &t_EI = "\e[2 q"

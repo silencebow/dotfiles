@@ -16,8 +16,8 @@ set number relativenumber
 " 2 space tabs
 set expandtab tabstop=2 shiftwidth=2
 
-" ignore casing with search
-set ignorecase
+" ignore casing with search unless searching for uppercase
+set ignorecase smartcase
 
 " show current mode and last command at bottom of screen
 set showmode showcmd

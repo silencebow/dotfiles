@@ -29,5 +29,6 @@
     "git.enableSmartCommit": true,
     "git.confirmSync": false,
     "vim.insertModeKeyBindings": [{"before": ["j","j"], "after": ["<Esc>"]}],
+    "vim.ignorecase": true,
     "flake8.args": ["--max-line-length=120", "--ignore=E111,E114"]
 }

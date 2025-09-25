@@ -14,7 +14,7 @@
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 60000,
     "files.hotExit": "off",
-    "editor.fontFamily": "Cascadia Mono, Consolas, monospace",
+    "editor.fontFamily": "CaskaydiaMono Nerd Font, Cascadia Mono, Consolas, monospace",
     "editor.fontSize": 18,
     "editor.tabSize": 2,
     "editor.wordWrap": "bounded",

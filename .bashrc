@@ -17,11 +17,13 @@ alias dd='docker compose down'
 export VISUAL=vim
 
 # create a tmux session "0" or attach if existing
-# only if tmux exists and not already in tmux
+# only if tmux exists and not in tmux or ssh
 if command -v tmux >/dev/null 2>&1; then
   if [ ! "$TERM_PROGRAM" = tmux ]; then
-    tmux new -As0
-    # tmux a || tmux
+    if [ ! -n "$SSH_CONNECTION" ]; then
+      tmux new -As0
+      # tmux a || tmux
+    fi
   fi
 fi
 

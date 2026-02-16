@@ -33,6 +33,5 @@
     "vim.insertModeKeyBindings": [{"before": ["j","j"],
                                    "after": ["<Esc>"]}],
     "flake8.args": ["--max-line-length=120",
-                    "--ignore=E111,E114"
-    ]
+                    "--ignore=E111,E114"]
 }

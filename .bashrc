@@ -7,19 +7,18 @@ alias ll="ls -lah"
 alias rsync="rsync -h --info=progress2"
 alias py="python"
 
-if [ $HOSTNAME = "rubicon"]; then
-alias dim="~/scripts/dim_monitors.sh"
-alias raven="ssh raven@10.0.0.10 -p 2332"
-alias jing="ssh jing@jing-server"
-
-if [ $HOSTNAME = "raven-server"]; then
-alias dc='docker compose down && docker compose up -d'
-alias dd='docker compose down'
-alias ld='lazydocker'
-
-if [ $HOSTNAME = "jing-server"]; then
-alias dc='docker compose down && docker compose up -d'
-alias dd='docker compose down'
+if [ $HOSTNAME = "rubicon" ]; then
+  alias dim="~/scripts/dim_monitors.sh"
+  alias raven="ssh raven@10.0.0.10 -p 2332"
+  alias jing="ssh jing@jing-server"
+elif [ $HOSTNAME = "raven-server" ]; then
+  alias dc='docker compose down && docker compose up -d'
+  alias dd='docker compose down'
+  alias ld='lazydocker'
+elif [ $HOSTNAME = "jing-server" ]; then
+  alias dc='docker compose down && docker compose up -d'
+  alias dd='docker compose down'
+fi
 
 
 # create a tmux session "0" or attach if existing
@@ -38,3 +37,4 @@ fi
 if command -v fastfetch >/dev/null 2>&1; then
   fastfetch
 fi
+

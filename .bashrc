@@ -38,8 +38,10 @@ if command -v tmux >/dev/null 2>&1; then
 fi
 
 
-# run fastfetch if it exists
+# run fastfetch or neofetch if one exists
 if command -v fastfetch >/dev/null 2>&1; then
   fastfetch
+elif command -v neofetch >/dev/null 2>&1; then
+  neofetch
 fi
 

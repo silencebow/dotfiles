@@ -1,3 +1,8 @@
+# source this .bashrc from an existing .bashrc
+# if [ -f ~/dotfiles/.bashrc ]; then
+#   . ~/dotfiles/.bashrc
+# fi
+
 # run only for interactive shells
 # check for i (*i*) in shell flags ($-) and exit if missing (not interactive)
 [[ $- != *i* ]] && return

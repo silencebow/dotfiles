@@ -27,13 +27,13 @@ fi
 
 
 # create a tmux session "0" or attach if existing
-# only if tmux exists and not in tmux or ssh
+# only if tmux exists and not in tmux
 if command -v tmux >/dev/null 2>&1; then
   if [ ! "$TERM_PROGRAM" = tmux ]; then
-    if [ ! -n "$SSH_CONNECTION" ]; then
-      tmux new -As0
-      # tmux a || tmux
+    if [ -n "$SSH_CONNECTION" ]; then
+      TMUX=''
     fi
+    tmux new -As0
   fi
 fi
 
